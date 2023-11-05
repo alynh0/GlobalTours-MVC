@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GlobalTours</title>
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <a href="index.html">
+          <img src="assets/logo.png" alt="Logo" />
+          <p>GlobalTours</p>
+        </a>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#sectionDestinos">Destinos</a></li>
+          <li><a href="contact.html">Contato</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="Cadastro.jsp">Cadastro</a></li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <h1>Encontre seu destino</h1>
+      <form action="">
+        <fieldset>
+          <div class="search-box">
+            <div class="origemIda">
+              <div>
+                <label>Origem:</label>
+                <input type="text" placeholder="Recife" required />
+              </div>
+              <div>
+                <label for="">Data de ida:</label>
+                <input type="date" required />
+              </div>
+            </div>
+            <div class="destinoVolta">
+              <div>
+                <label>Destino:</label>
+                <input type="text" placeholder="Barcelona" required />
+              </div>
+              <div>
+                <label for="">Data de volta:</label>
+                <input type="date" required />
+              </div>
+            </div>
+            <button type="submit" id="submitForm">BUSCAR</button>
+          </div>
+        </fieldset>
+      </form>
+      <h1>
+        <span>OFERTAS ESPECIAIS:</span> DESVENDE DESTINOS COM
+        <span>DESCONTOS EXCLUSIVOS!</span>
+      </h1>
+      <section class="promo">
+        <div class="istambulCard">
+          <div class="card-text">
+            <h3>Istambul</h3>
+            <p>de R$ 2.500,00 por <span>R$ 1.500,00</span></p>
+            <button class="botaoViajar">VIAJAR</button>
+          </div>
+        </div>
+        <div class="ushuaiaCard">
+          <div class="card-text">
+            <h3>Ushuaia</h3>
+            <p>de R$ 3.000,00 por <span>R$ 2.000,00</span></p>
+            <button class="botaoViajar">VIAJAR</button>
+          </div>
+        </div>
+        <div class="parisCard">
+          <div class="card-text">
+            <h3>Paris</h3>
+            <p>de R$ 6.000,00 por <span>R$ 5.000,00</span></p>
+            <button class="botaoViajar">VIAJAR</button>
+          </div>
+        </div>
+        <div class="londresCard">
+          <div class="card-text">
+            <h3>Londres</h3>
+            <p>de R$ 4.000,00 por <span>R$ 3.000,00</span></p>
+            <button class="botaoViajar">VIAJAR</button>
+          </div>
+        </div>
+        <div class="bangkokCard">
+          <div class="card-text">
+            <h3>Bangkok</h3>
+            <p>de R$ 5.000,00 por <span>R$ 4.000,00</span></p>
+            <button class="botaoViajar">VIAJAR</button>
+          </div>
+        </div>
+      </section>
+      <section class="outrosDestinos" id="sectionDestinos">
+        <h2>Destinos Irresistíveis</h2>
+        <div class="destinosCards">
+          <div class="amsterdamCard">
+            <div class="card-text">
+              <h3>Amsterdã</h3>
+              <button class="botaoViajar2">viajar</button>
+            </div>
+          </div>
+          <div class="barcelonaCard">
+            <div class="card-text">
+              <h3>barcelona</h3>
+              <button class="botaoViajar2">viajar</button>
+            </div>
+          </div>
+          <div class="buenosAiresCard">
+            <div class="card-text">
+              <h3>buenos aires</h3>
+              <button class="botaoViajar2">viajar</button>
+            </div>
+          </div>
+          <div class="dubaiCard">
+            <div class="card-text">
+              <h3>dubai</h3>
+              <button class="botaoViajar2">viajar</button>
+            </div>
+          </div>
+          <div class="mexicoCard">
+            <div class="card-text">
+              <h3>méxico</h3>
+              <button class="botaoViajar2">viajar</button>
+            </div>
+          </div>
+          <div class="novaiorqueCard">
+            <div class="card-text">
+              <h3>nova iorque</h3>
+              <button class="botaoViajar2">viajar</button>
+            </div>
+          </div>
+          <div class="rioCard">
+            <div class="card-text">
+              <h3>rio de janeiro</h3>
+              <button class="botaoViajar2">viajar</button>
+            </div>
+          </div>
+          <div class="romaCard">
+            <div class="card-text">
+              <h3>roma</h3>
+              <button class="botaoViajar2">viajar</button>
+            </div>
+          </div>
+          <div class="sydneyCard">
+            <div class="card-text">
+              <h3>sydney</h3>
+              <button class="botaoViajar2">viajar</button>
+            </div>
+          </div>
+          <div class="tokyoCard">
+            <div class="card-text">
+              <h3>tokyo</h3>
+              <button class="botaoViajar2">viajar</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>Acompanhe nossas redes sociais</p>
+      <div class="social">
+        <a href="#"><img src="assets/facebook.png" alt="Facebook" /></a>
+        <a href="#"><img src="assets/instagram.png" alt="Instagram" /></a>
+        <a href="#"><img src="assets/twitter.png" alt="Twitter" /></a>
+        <a href="#"><img src="assets/tiktok.png" alt="TikTok" /></a>
+      </div>
+      <p>GlobalTours © 2023</p>
+    </footer>
+  </body>
+</html>

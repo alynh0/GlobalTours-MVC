@@ -1,0 +1,748 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F2C879;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 20%;
+    width: 100%;
+    background-color: #2D2C59;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+ul a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    margin-right: 20px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+ul a:hover {
+    color: #F2C879;
+}
+
+nav img {
+    height: 80px;
+    margin-left: 20px;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    gap: 10px;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    list-style: none;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 20px 0;
+    color: #2D2C59;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+span {
+    color: red;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px #000;
+}
+
+main {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+/* COMEÇO FORMS */
+
+fieldset {
+    width: fit-content;
+    max-height: 100%;
+    margin: 0 auto;
+    padding: 1% 2%;
+    background-color: rgba(18, 54, 77, 0.3);
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.30);
+}
+
+.search-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#submitForm {
+    background-color: #2D2C59;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 19px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#submitForm:hover {
+    background-color: #050099;
+    color: #797979;
+}
+
+#submitForm:active {
+    transform: scale(0.9);
+}
+
+.origemIda {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.origemIda div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+}
+
+.origemIda div input {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.30);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.destinoVolta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.destinoVolta div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+}
+
+.destinoVolta div input {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.30);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+label {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    text-transform: uppercase;
+}
+
+/* FIM FORM */
+
+section {
+    margin-bottom: 2%;
+    width: 100vw;
+}
+
+/* COMEÇO SECTION 1 */
+
+.card-text p {
+    text-shadow: 1px 1px 1px #000;
+    padding: 8%;
+    font-size: 1.3rem;
+}
+
+.promo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding-bottom: 20px;
+}
+
+.istambulCard {
+    width: 300px;
+    height: fit-content;
+    background-size: cover;
+    background-image: url('../assets/promo_cities/istanbul.jpg');
+    border-radius: 10px;
+    padding: 30px;
+    -webkit-box-shadow: 3px 4px 4px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 3px 4px 4px 0px rgba(0,0,0,0.25);
+    box-shadow: 3px 4px 4px 0px rgba(0,0,0,0.25);
+}
+
+.istambulCard .card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.botaoViajar {
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 1px #000;
+    background-color: transparent;
+    color: white;
+    border: #fff 1px solid;
+    border-radius: 14px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.botaoViajar:hover {
+    background-color: #fff;
+    color: #2D2C59;
+    transition: all 0.3s ease;
+}
+
+.botaoViajar:active {
+    transform: scale(0.9);
+}
+
+.ushuaiaCard {
+    width: 300px;
+    height: fit-content;
+    background-image: url('../assets/promo_cities/ushuaia.jpg');
+    background-size: cover;
+    border-radius: 10px;
+    padding: 30px;
+    -webkit-box-shadow: 3px 4px 4px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 3px 4px 4px 0px rgba(0,0,0,0.25);
+    box-shadow: 3px 4px 4px 0px rgba(0,0,0,0.25);
+}
+
+.ushuaiaCard .card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.londresCard {
+    width: 300px;
+    height: fit-content;
+    background-image: url('../assets/promo_cities/london.jpg');
+    background-size: cover;
+    border-radius: 10px;
+    padding: 30px;
+    -webkit-box-shadow: 3px 4px 4px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 3px 4px 4px 0px rgba(0,0,0,0.25);
+    box-shadow: 3px 4px 4px 0px rgba(0,0,0,0.25);
+}
+
+.londresCard .card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bangkokCard {
+    width: 300px;
+    height: fit-content;
+    background-image: url('../assets/promo_cities/bangkok.jpg');
+    background-size: cover;
+    border-radius: 10px;
+    padding: 30px;
+    -webkit-box-shadow: 3px 4px 4px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 3px 4px 4px 0px rgba(0,0,0,0.25);
+    box-shadow: 3px 4px 4px 0px rgba(0,0,0,0.25);
+}
+
+.bangkokCard .card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card-text h3 {
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #000;
+    font-size: 1.5rem;
+}
+
+.parisCard {
+    width: 300px;
+    height: fit-content;
+    background-image: url('../assets/promo_cities/paris.webp');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    padding: 30px;
+    -webkit-box-shadow: 3px 4px 4px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 3px 4px 4px 0px rgba(0,0,0,0.25);
+    box-shadow: 3px 4px 4px 0px rgba(0,0,0,0.25);
+}
+
+.parisCard .card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* FIM SECTION 1 */
+
+/* SECTION 2 */
+
+.outrosDestinos {
+    width: 100%;
+}
+
+.destinosCards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding-bottom: 20px;
+}
+
+.outrosDestinos h2 {
+    font-size: 3rem;
+    font-weight: bolder;
+    margin: 20px 0;
+    color: #2D2C59;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    /* text-shadow: 1px 1px 1px #000; */
+}
+
+    /* BOTÃO SECTION 2 */
+
+.botaoViajar2 {
+    background-color: transparent;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 1px 1px 1px #000;
+    border: #fff 2px solid;
+    border-radius: 14px;
+    padding: 14px 40px;
+    margin: 8px 0;
+    cursor: pointer;
+}
+
+.botaoViajar2:hover {
+    background-color: #fff;
+    color: #2D2C59;
+    transition: all 0.3s ease;
+}
+
+.botaoViajar2:active {
+    transform: scale(0.9);
+}
+
+    /* FIM BOTÃO SECTION 2 */
+
+.amsterdamCard {
+    width: 300px;
+    height: fit-content;
+    border-radius: 10px;
+    padding: 30px;
+    background-image: url('../assets/offers/amsterdam.jpg');
+    background-size: cover;
+    background-position: center;
+    -webkit-box-shadow: 3px 4px 4px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 3px 4px 4px 0px rgba(0,0,0,0.25);
+    box-shadow: 3px 4px 4px 0px rgba(0,0,0,0.25);
+}
+
+.barcelonaCard {
+    width: 300px;
+    height: fit-content;
+    border-radius: 10px;
+    padding: 30px;
+    background-image: url('../assets/offers/barcelona.avif');
+    background-size: cover;
+    background-position: center;
+    -webkit-box-shadow: 3px 4px 4px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 3px 4px 4px 0px rgba(0,0,0,0.25);
+    box-shadow: 3px 4px 4px 0px rgba(0,0,0,0.25);
+}
+
+.buenosAiresCard {
+    width: 300px;
+    height: fit-content;
+    border-radius: 10px;
+    padding: 30px;
+    background-image: url('../assets/offers/buenos\ aires.jpg');
+    background-size: cover;
+    background-position: center;
+    -webkit-box-shadow: 3px 4px 4px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 3px 4px 4px 0px rgba(0,0,0,0.25);
+    box-shadow: 3px 4px 4px 0px rgba(0,0,0,0.25);
+}
+
+.dubaiCard {
+    width: 300px;
+    height: fit-content;
+    border-radius: 10px;
+    padding: 30px;
+    background-image: url('../assets/offers/dubai.jpg');
+    background-size: cover;
+    background-position: center;
+    -webkit-box-shadow: 3px 4px 4px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 3px 4px 4px 0px rgba(0,0,0,0.25);
+    box-shadow: 3px 4px 4px 0px rgba(0,0,0,0.25);
+}
+
+.mexicoCard {
+    width: 300px;
+    height: fit-content;
+    border-radius: 10px;
+    padding: 30px;
+    background-image: url('../assets/offers/mexico.webp');
+    background-size: cover;
+    background-position: center;
+    -webkit-box-shadow: 3px 4px 4px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 3px 4px 4px 0px rgba(0,0,0,0.25);
+    box-shadow: 3px 4px 4px 0px rgba(0,0,0,0.25);
+}
+
+.novaiorqueCard {
+    width: 300px;
+    height: fit-content;
+    border-radius: 10px;
+    padding: 30px;
+    background-image: url('../assets/offers/new_york.webp');
+    background-size: cover;
+    background-position: center;
+    -webkit-box-shadow: 3px 4px 4px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 3px 4px 4px 0px rgba(0,0,0,0.25);
+    box-shadow: 3px 4px 4px 0px rgba(0,0,0,0.25);
+}
+
+.rioCard { 
+    width: 300px;
+    height: fit-content;
+    border-radius: 10px;
+    padding: 30px;
+    background-image: url('../assets/offers/rio\ de\ janeiro.jpeg');
+    background-size: cover;
+    background-position: center;
+    -webkit-box-shadow: 3px 4px 4px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 3px 4px 4px 0px rgba(0,0,0,0.25);
+    box-shadow: 3px 4px 4px 0px rgba(0,0,0,0.25);
+}
+
+.romaCard {
+    width: 300px;
+    height: fit-content;
+    border-radius: 10px;
+    padding: 30px;
+    background-image: url('../assets/offers/rome.jpg');
+    background-size: cover;
+    background-position: center;
+    -webkit-box-shadow: 3px 4px 4px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 3px 4px 4px 0px rgba(0,0,0,0.25);
+    box-shadow: 3px 4px 4px 0px rgba(0,0,0,0.25);
+}
+
+.sydneyCard {
+    width: 300px;
+    height: fit-content;
+    border-radius: 10px;
+    padding: 30px;
+    background-image: url('../assets/offers/sydney.jpg');
+    background-size: cover;
+    background-position: center;
+    -webkit-box-shadow: 3px 4px 4px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 3px 4px 4px 0px rgba(0,0,0,0.25);
+    box-shadow: 3px 4px 4px 0px rgba(0,0,0,0.25);
+}
+
+.tokyoCard {
+    width: 300px;
+    height: fit-content;
+    border-radius: 10px;
+    padding: 30px;
+    background-image: url('../assets/offers/tokyo.avif');
+    background-size: cover;
+    background-position: center;
+    -webkit-box-shadow: 3px 4px 4px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 3px 4px 4px 0px rgba(0,0,0,0.25);
+    box-shadow: 3px 4px 4px 0px rgba(0,0,0,0.25);
+}
+
+.amsterdamCard .card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.barcelonaCard .card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.buenosAiresCard .card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.dubaiCard .card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mexicoCard .card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.novaiorqueCard .card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.rioCard .card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.romaCard .card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sydneyCard .card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.tokyoCard .card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* FIM SECTION 2 */
+
+footer {
+    width: 100%;
+    background-color: #2D2C59;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px;
+}
+
+footer p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 10px;
+}
+
+footer a {
+    padding: 0px 20px;
+}
+
+footer img {
+    height: 50px;
+}
+
+footer img:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+/* ADAPTAÇÃO PARA DISPOSITIVOS MÓVEIS */
+
+@media (max-width: 768px) {
+
+    /* NAVBAR */
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        max-height: 100%;
+    }
+
+    nav img {
+        height: 70px;
+        margin: 0;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+        list-style: none;
+        padding: 10px;
+    }
+
+    nav ul a {
+        margin: 0;
+    }
+
+    .menu {
+        background-color: #2d2c64;
+        width: 100%;
+        box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+    }
+
+    /* FIM NAVBAR */
+
+    /* FOOTER */
+    footer a {
+        padding: 10px;
+    }
+}
